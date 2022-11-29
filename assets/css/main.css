@@ -99,10 +99,19 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
+		
+			@font-face {
+				font-family: 'pangmenzhengdao';
+				src:url(font/庞门正道细线体.ttf);
+			}
+			.maozedong{
+				font-family: 'pangmenzhengdao';
+				font-size: 50px;
+				text-shadow: none;
+			}
 	}
 
 	a {
